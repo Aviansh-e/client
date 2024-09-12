@@ -1,0 +1,41 @@
+.about-container {
+    background-color: #b5e816;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-footer .cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-footer .cta-button:hover {
+    background-color: #0056b3;
+}
